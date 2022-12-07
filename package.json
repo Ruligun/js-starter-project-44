@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "hexlet-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruligun/js-starter-project-44.git"
+  },
+  "author": "Ruligun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruligun/js-starter-project-44/issues"
+  },
+  "homepage": "https://github.com/Ruligun/js-starter-project-44#readme"
+}
