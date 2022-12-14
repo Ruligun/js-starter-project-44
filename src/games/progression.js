@@ -23,7 +23,7 @@ const brainProgGame = () => {
         const progression = getProgression(start, step, length);
         const rightAnswer = `${progression[missingItem]}`;
         progression[missingItem] = '..';
-        const userAnswer = readlineSync.question(`Question: ${progression}\nYour answer: `);
+        const userAnswer = readlineSync.question(`Question: ${progression.join(' ')}\nYour answer: `);
 
         if (userAnswer === rightAnswer) {
                 console.log('Correct!');
