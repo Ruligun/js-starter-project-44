@@ -18,8 +18,8 @@ const brainCalcGame = () => {
         console.log(`Hello, ${userName}!`);
         console.log('What is the result of the expression?');
         for (let i = 0; i < 3; i += 1) {
-                const firstRandomNum = getRandomNum(10);
-                const secondRandomNum = getRandomNum(10);
+                const firstRandomNum = getRandomNum(0, 10);
+                const secondRandomNum = getRandomNum(0, 10);
 		const signsArray = ['+', '-', '*'];
 		const randomSign = signsArray[Math.floor(Math.random() * signsArray.length)];
 		const userAnswer = readlineSync.question(`Question: ${firstRandomNum} ${randomSign} ${secondRandomNum}\nYour answer: `);

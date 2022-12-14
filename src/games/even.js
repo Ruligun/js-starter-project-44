@@ -9,7 +9,7 @@ const brainEvenGame = () => {
 	console.log(`Hello, ${userName}!`);
 	console.log('Answer "yes" if the number is even, otherwise answer "no".');
 	for (let i = 0; i < 3; i += 1) {
-		const randomNum = getRandomNum(100);
+		const randomNum = getRandomNum();
 		const question = readlineSync.question(`Question: ${randomNum}\nYour answer: `);
 
 		if ((randomNum % 2 === 0 && question === 'yes') || (randomNum % 2 !== 0 && question === 'no')) {
