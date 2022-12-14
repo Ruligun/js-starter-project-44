@@ -19,11 +19,11 @@ const brainEvenGame = () => {
 			return;
 		} else if (randomNum % 2 !== 0 && question === 'yes') {
 			console.log(`"yes" is wrong answer ;(. Correct answer was "no".\nLet's try again, ${userName}!`);
-	                return;
+			return;
 		} else {
 			return;
 		}
-	};
+	}
 
 	console.log(`Congratulations, ${userName}!`);
 };

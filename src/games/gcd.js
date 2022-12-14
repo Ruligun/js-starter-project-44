@@ -26,7 +26,7 @@ const brainGcdGame = () => {
                         console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`);
                         return;
                 }
-        };
+        }
 
         console.log(`Congratulations, ${userName}!`);
 };
